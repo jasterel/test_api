@@ -4,11 +4,11 @@ import axios from 'axios';
 // Настройки API
 var email = "info@krt.gov.spb.ru";
 var query = email.replace(/@/g, '%40');
-var apiKey = "4bc2b3f48ce9b9a2178bc1f8c313ce35242d4b13";
+var apiKey = "---";
 const url = 'https://api-fns.ru/api/search?q=' + query + '&key=' + apiKey;
 
 // Настройки подключения к MongoDB
-const mongoUrl = 'mongodb+srv://jasterelafis777:cbhttjlFI6fh3fjR@cluster0.0w7rw.mongodb.net/';
+const mongoUrl = 'mongodb+srv://---R@cluster0.0w7rw.mongodb.net/';
 const dbName = 'databaseTest';
 const collectionName = 'fns';
 
